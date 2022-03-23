@@ -1,0 +1,25 @@
+.gif {
+  margin-bottom: 20px;
+}
+.gif img {
+  width: 100%;
+  height: auto;
+}
+.gif-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.gif-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+}
+.gif-uploaded-date {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #999;
+}
