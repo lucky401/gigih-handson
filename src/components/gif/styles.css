@@ -3,6 +3,8 @@
 }
 .gif img {
   width: 100%;
+  min-height: 134px;
+  max-height: 134px;
   height: auto;
 }
 .gif-info {

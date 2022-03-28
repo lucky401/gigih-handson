@@ -3,7 +3,11 @@ import React from 'react';
 import './styles.css';
 
 function Gif({ gif }) {
-  const { title, uploadedDate, url, webp } = gif;
+  const { title, import_datetime: uploadedDate, images } = gif;
+
+  const {
+    fixed_width: { url, webp },
+  } = images;
 
   return (
     <div className="gif">
